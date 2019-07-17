@@ -1,0 +1,62 @@
+.collapse-row.collapsed + tr {
+    display: none;
+}
+
+.badge {
+    border-radius: 9px;
+    color: #fff;
+    padding: 5px 10px 5px 10px;
+}
+
+.dance {
+    background-color: #A3CB38;
+}
+
+.energy {
+    background-color: #FFC312;
+}
+
+.key {
+    background-color: #12CBC4;
+}
+
+.loud {
+    background-color: #B53471;
+}
+
+.mode {
+    background-color: #009432;
+}
+
+.speech {
+    background-color: #D980FA;
+}
+
+.acoustic {
+    background-color: #6F1E51;
+}
+
+.instrument {
+    background-color: #C4E538;
+}
+
+.live {
+    background-color: #0652DD;
+}
+
+.valence {
+    background-color: #EA2027;
+}
+
+.tempo {
+    background-color: #006266;
+}
+
+.down {
+    -moz-transition: all 200ms linear;
+    -webkit-transition: all 200ms linear;
+    transition: all 200ms linear;
+    -moz-transform:rotate(90deg);
+    -webkit-transform:rotate(90deg);
+    transform:rotate(90deg);
+}
